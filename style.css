@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherBox {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: #2d2c2c;
+}
+
+.temp-text, .temp-text-fahrenheit {
+    font-size: 10em;
+}
+
+.temp-location {
+    font-size: 3em;
+}
+
+.temperature , .location {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature {
+    margin: 1em;
+    display: block;
+}
+
+.temp-more-info {
+    margin-top: 10px;
+}
+
+.location {
+    margin: 1em;
+    height: 100px;
+}
+
+.toggle-temp {
+    margin: 1em;
+    background-color: rgba(255, 250, 240, 0.45);
+    padding: 10px 15px;
+    border: none;
+    width: 100px;
+    font-family: 'Karla', sans-serif;
+}
+
+.hs {
+    display: none;
+}
+.toggle-temp:hover {
+    background-color: rgba(186, 182, 175, 0.45);
+}
